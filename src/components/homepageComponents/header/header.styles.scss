@@ -1,0 +1,182 @@
+$white: #ffffff;
+$charcoal-grey: #323132;
+.header-content {
+  width: 45%;
+  height: 100%;
+  margin-top: 17.5%;
+  margin-left: 7.5%;
+}
+.content-1 {
+  width: 50%;
+  height: 100px;
+  margin: 0 0 10px;
+  font-family: Titillium Web;
+  font-size: 3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: -0.39px;
+  text-align: left;
+  color: $white;
+}
+.text-style-1 {
+  font-weight: bold;
+  width: 150%;
+  margin: 10px;
+}
+.text-style-2 {
+  margin-top: -5px;
+  height: 100%;
+  width: 200%;
+  padding-left: 10px;
+}
+.content-2 {
+  width: 50%;
+  height: 70px;
+  margin-top: 3rem;
+  font-family: Titillium Web;
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: 0.43px;
+  text-align: left;
+  color: $white;
+}
+.text-style-3 {
+  width: 125%;
+  padding-left: 10px;
+}
+.header-button {
+  display: flex;
+  padding-left: 10px;
+  margin-top: 2rem;
+}
+
+.button-header_1 {
+  width: 16rem;
+  height: 2.5rem;
+  border: none;
+  margin-right: 2rem;
+  padding: 5.5px 13px 5px 12.5px;
+  border-radius: 2px;
+  background-color: $white;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+.button-header_2 {
+  width: 12.5rem;
+  height: 2.5rem;
+  padding: 5px 13px 5.5px 11.5px;
+  border-radius: 2px;
+  border: solid 2px #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  &:focus {
+    outline: none;
+  }
+}
+.border-para_1 {
+  font-family: Titillium Web;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: $charcoal-grey;
+  margin: 0;
+  padding-left: 0.7rem;
+  padding-right: 0.6rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.border-para_2 {
+  font-family: Titillium Web;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: $white;
+  margin: 0;
+  padding-left: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.overlap-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.overlap-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.overlap-btn_1 {
+  font-family: Titillium Web;
+  font-weight: 400;
+  width: 14rem;
+  height: 2.5rem;
+  border: none;
+  padding: 5.5px 13px 5px 12.5px;
+  border-radius: 2px;
+  background-color: $white;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  font-size: 1rem;
+}
+.overlap-text {
+  font-family: Titillium Web;
+  display: flex;
+  color: $white;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.overlap-text_1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  justify-content: flex-start;
+  letter-spacing: -0.3px;
+}
+.overlap-text_2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 0;
+  line-height: 1.5;
+}
+.overlap-text_3 {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  margin-top: 10px;
+}
